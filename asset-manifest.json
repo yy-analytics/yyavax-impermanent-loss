@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yyavax-impermanent-loss/static/css/main.e6c13ad2.css",
-    "main.js": "/yyavax-impermanent-loss/static/js/main.605cad9e.js",
+    "main.js": "/yyavax-impermanent-loss/static/js/main.baa64800.js",
     "static/js/787.ac556bb6.chunk.js": "/yyavax-impermanent-loss/static/js/787.ac556bb6.chunk.js",
     "index.html": "/yyavax-impermanent-loss/index.html",
     "main.e6c13ad2.css.map": "/yyavax-impermanent-loss/static/css/main.e6c13ad2.css.map",
-    "main.605cad9e.js.map": "/yyavax-impermanent-loss/static/js/main.605cad9e.js.map",
+    "main.baa64800.js.map": "/yyavax-impermanent-loss/static/js/main.baa64800.js.map",
     "787.ac556bb6.chunk.js.map": "/yyavax-impermanent-loss/static/js/787.ac556bb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.605cad9e.js"
+    "static/js/main.baa64800.js"
   ]
 }
