@@ -330,7 +330,7 @@ function App() {
               <br />
               <MathJax.Provider>
                 <Typography variant="body1">
-                  Then the overall net loss/gain once swap fees
+                  Then the overall net loss/gain once swap fee gains
                   <MathJax.Node inline formula={`\\: (t) \\:`} />
                   and farming rewards growth
                   <MathJax.Node inline formula={`\\: (f) \\:`} />
