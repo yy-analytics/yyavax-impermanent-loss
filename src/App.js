@@ -5,7 +5,6 @@ import { Avatar, AvatarGroup, Card, CardContent, CssBaseline, InputAdornment, Pa
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import MuiInput from '@mui/material/Input';
 import { Legend, Line, LineChart, ReferenceLine, Tooltip, XAxis, YAxis } from "recharts";
 import MathJax from 'react-mathjax';
 
@@ -108,7 +107,7 @@ function App() {
         <Grid container alignItems="center" spacing={2}>
           <Grid item xs={12}>
             <Typography variant="h3">
-              Impermanent Loss for yyAVAX deFi farming
+              Impermanent Loss for yyAVAX DeFi farming
             </Typography>
           </Grid>
           <Grid item xs={12}>
@@ -215,7 +214,7 @@ function App() {
                 </Grid>
                 <Grid item xs={3} md={2}>
                   <Typography variant="body2">
-                    yyAVAX: AVAX gains = {`${(100 * yyAvaxGrowth).toFixed(2)}%`}
+                    yyAVAX APR = {`${(100 * yyAvaxGrowth).toFixed(2)}%`}
                   </Typography>
                 </Grid>
                 <Grid item xs={9} md={10}>
@@ -233,7 +232,7 @@ function App() {
                 </Grid>
                 <Grid item xs={3} md={2}>
                   <Typography variant="body2">
-                    Trading fee growth = {`${(100 * tradingFeeGrowth).toFixed(2)}%`}
+                    Swap fee gains = {`${(100 * tradingFeeGrowth).toFixed(2)}%`}
                   </Typography>
                 </Grid>
                 <Grid item xs={9} md={10}>
@@ -331,7 +330,7 @@ function App() {
               <br />
               <MathJax.Provider>
                 <Typography variant="body1">
-                  Then the overall net loss/gain once trading fee growth
+                  Then the overall net loss/gain once swap fees
                   <MathJax.Node inline formula={`\\: (t) \\:`} />
                   and farming rewards growth
                   <MathJax.Node inline formula={`\\: (f) \\:`} />
